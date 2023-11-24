@@ -6,12 +6,13 @@
  */
 
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import {SafeAreaView} from 'react-native';
+import Demo from './demo.mdx';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView>
-      <Text>Test</Text>
+      <Demo />
     </SafeAreaView>
   );
 }

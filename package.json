@@ -10,8 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "@bacons/mdx": "^0.1.1",
     "react": "18.2.0",
-    "react-native": "0.72.7"
+    "react-native": "0.72.7",
+    "remark-mdx-frontmatter": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
